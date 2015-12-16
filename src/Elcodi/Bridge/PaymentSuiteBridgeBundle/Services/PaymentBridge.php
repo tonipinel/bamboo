@@ -254,8 +254,7 @@ class PaymentBridge implements PaymentBridgeInterface
 
                 $orderLineArray['item_name'] = $orderLineName;
 
-                $lineAmount = $orderLine
-                    ->getProductAmount();
+                $lineAmount = $orderLine->getPurchasableAmount();
 
                 /*
                  * We need to convert any price to match

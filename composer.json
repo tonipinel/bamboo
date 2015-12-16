@@ -73,7 +73,7 @@
         "mmoreram/http-headers-bundle": "1.0.0",
         "mmoreram/symfony-bundle-dependencies": "^1.1.1",
 
-        "elcodi/elcodi": "^1.0.13"
+        "elcodi/elcodi": "^1.0.14"
     },
     "replace": {
         "elcodi-templates/template": "self.version",
@@ -111,11 +111,11 @@
     },
     "scripts": {
         "check-style": [
-            "bin/php-cs-fixer fix --config-file=.php_cs",
-            "bin/php-formatter f:u:s src",
-            "bin/php-formatter f:u:s app",
-            "bin/php-formatter f:h:f src",
-            "bin/php-formatter f:h:f app"
+            "bin/php-cs-fixer fix --config-file=.php_cs || true",
+            "bin/php-formatter f:u:s src || true",
+            "bin/php-formatter f:u:s app || true",
+            "bin/php-formatter f:h:f src || true",
+            "bin/php-formatter f:h:f app || true"
         ],
         "compile": [
             "app/console -n doctrine:migrations:status",

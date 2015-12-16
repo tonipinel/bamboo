@@ -10,12 +10,12 @@ store_order_view: '/pedido/{id}'
 store_checkout_shipping_range_apply: '/cesta/envio/rango/cambiar/{rangeId}'
 store_password_recover: /contrasinal/recuperar
 store_blog_post_view: '/blog/{id}/{slug}'
-store_category_products_list: '/categoria/{slug}/{id}'
+store_category_purchasables_list: '/categoria/{slug}/{id}'
 store_user_nav: /usuario/nav
 store_user_edit: /usuario/editar
 store_coupon_remove: '/cesta/cupon/eliminar/{code}'
 store_checkout_payment_fail: '/cesta/pago/error/{id}'
-store_cart_add_product: '/cesta/produto/{id}/engadir'
+store_cart_add_purchasable: '/cesta/produto/{id}/engadir'
 store_product_view: '/produto/{slug}/{id}'
 store_address_edit: '/o-meu-enderezo/{id}/editar/{source}'
 store_checkout_payment: /cesta/pago
@@ -34,5 +34,4 @@ store_register: /rexistro
 store_order_list: /os-meus-pedidos
 store_coupon_apply: /cesta/cupon/aplicar
 store_cart_view: /cesta
-store_cart_add_product_variant: '/cesta/produto/variante/{id}/engadir'
 store_checkout_address: /cesta/enderezo
