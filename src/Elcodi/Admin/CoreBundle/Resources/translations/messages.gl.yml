@@ -225,16 +225,7 @@ admin:
                 description:
                     - 'Arrastra e solta as categorías para ordealas ou aniñalas unhas dentro doutras (2 niveis máx).'
                     - 'Clic nunha categoría para editar.'
-                    - 'Clic nunha cagetoría para editar'
-                    - 'Clic nunha categoría para editar.'
-                    - 'Clic nunha categoría para editar.'
-                    - 'Arrastra e solta as categorías para ordenalas ou aniñalas unhas dentro doutras (2 niveis máx.)'
-                    - 'Clic nunha categoría para editar.'
-                    - 'Arrastra e solta as categorías para ordealas ou aniñalas unhas dentro doutras (2 niveis mmáx).'
-                    - 'Clic nunha categoría para editar.'
-                    - 'Clic nunha categoría para editar.'
                     - 'Fai clic na papeleira para borrar unha categoría.'
-                    - 'Clic nunha categoría para editar'
                 title: 'Ordenar e editar'
             visibility:
                 description: 'Configura esta categoría coma visible ou agochada.'
