@@ -206,8 +206,8 @@ class PackType extends AbstractType
             ])
             ->add('stockType', 'choice', [
                 'choices'           => [
-                    'Specific' => ElcodiProductStock::SPECIFIC_STOCK,
-                    'Inherit'  => ElcodiProductStock::INHERIT_STOCK,
+                    'admin.purchasable_pack.field.stock_type.specific_stock' => ElcodiProductStock::SPECIFIC_STOCK,
+                    'admin.purchasable_pack.field.stock_type.inherit_stock'  => ElcodiProductStock::INHERIT_STOCK,
                 ],
                 'choices_as_values' => true,
                 'required'          => true,
